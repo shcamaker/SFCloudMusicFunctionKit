@@ -1,0 +1,22 @@
+{
+  "name": "SFCloudMusicFunctionKit",
+  "version": "0.1.0",
+  "summary": "SFCloudMusicFunctionKit",
+  "description": "A short description of SFCloudMusicFunctionKit",
+  "homepage": "https://github.com/shcamaker/SFCloudMusicFunctionKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shcamaker": "alex.shen@wesoft.com"
+  },
+  "source": {
+    "git": "https://github.com/shcamaker/SFCloudMusicFunctionKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SFCloudMusicFunctionKit/Classes/**/*"
+}
