@@ -22,7 +22,7 @@ public class SFCycleScrollView: UIView {
         case Right
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         addSubview(scrollView)
         scrollView.addSubview(currentImageView)
@@ -31,7 +31,7 @@ public class SFCycleScrollView: UIView {
         startTimer()
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -81,7 +81,7 @@ public class SFCycleScrollView: UIView {
         }
     }
     
-    func startTimer() {
+    private func startTimer() {
         if imageArray.count == 1 {
             return
         }
@@ -90,11 +90,11 @@ public class SFCycleScrollView: UIView {
             timer = nil
         }
         timer = Timer(timeInterval: duration, target: self, selector: #selector(nextPage), userInfo: nil, repeats: true)
-        RunLoop.current.add(timer!, forMode: RunLoopMode.commonModes)
+        RunLoop.current.add(timer!, forMode: RunLoop.Mode.common)
         
     }
     
-    @objc func nextPage () {
+    @objc private func nextPage () {
         scrollView.setContentOffset(CGPoint(x: scrollView.bounds.width*2, y: 0), animated: true)
     }
     

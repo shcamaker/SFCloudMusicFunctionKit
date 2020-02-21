@@ -42,11 +42,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8FB309B7C59F0E1554435B47 /* Pods-SFCloudMusicFunctionKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCloudMusicFunctionKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-SFCloudMusicFunctionKit_Tests/Pods-SFCloudMusicFunctionKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		963ABAE4DE2E387083DF5A09 /* Pods_SFCloudMusicFunctionKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFCloudMusicFunctionKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9927C11032B4BD7483E6A9A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9927C11032B4BD7483E6A9A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9F620325A0D6877675FD2B75 /* Pods-SFCloudMusicFunctionKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCloudMusicFunctionKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SFCloudMusicFunctionKit_Tests/Pods-SFCloudMusicFunctionKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BE38254BA34BF1F7BA557786 /* SFCloudMusicFunctionKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SFCloudMusicFunctionKit.podspec; path = ../SFCloudMusicFunctionKit.podspec; sourceTree = "<group>"; };
+		BE38254BA34BF1F7BA557786 /* SFCloudMusicFunctionKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SFCloudMusicFunctionKit.podspec; path = ../SFCloudMusicFunctionKit.podspec; sourceTree = "<group>"; };
 		DA86CECA3BBF982DDFC9EECF /* Pods-SFCloudMusicFunctionKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCloudMusicFunctionKit_Example.release.xcconfig"; path = "Target Support Files/Pods-SFCloudMusicFunctionKit_Example/Pods-SFCloudMusicFunctionKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FE991DCF637D17F91DE84787 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FE991DCF637D17F91DE84787 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				9F620325A0D6877675FD2B75 /* Pods-SFCloudMusicFunctionKit_Tests.debug.xcconfig */,
 				8FB309B7C59F0E1554435B47 /* Pods-SFCloudMusicFunctionKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -484,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -499,7 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
