@@ -126,7 +126,7 @@ public class SFCycleScrollView1: UIView, UIScrollViewDelegate {
             return
         }
         timer = Timer.scheduledTimer(timeInterval: duration, target: self, selector: #selector(rolling), userInfo: nil, repeats: true)
-        RunLoop.current.add(timer!, forMode: RunLoop.Mode.common)
+        RunLoop.current.add(timer!, forMode: RunLoopMode.commonModes)
     }
     
     /// 暂停计时器
