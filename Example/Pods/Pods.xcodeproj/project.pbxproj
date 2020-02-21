@@ -408,6 +408,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2703A410B82C125EDC66B35739D3B123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA61CF9BAD2032BA30B6FE8B7FCB1D15 /* SFCloudMusicFunctionKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFCloudMusicFunctionKit/SFCloudMusicFunctionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFCloudMusicFunctionKit/SFCloudMusicFunctionKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFCloudMusicFunctionKit/SFCloudMusicFunctionKit.modulemap";
+				PRODUCT_MODULE_NAME = SFCloudMusicFunctionKit;
+				PRODUCT_NAME = SFCloudMusicFunctionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		36C452212F435223F68738116B085B9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5C3E5C7260D074301B76EDB6867CA04 /* Pods-SFCloudMusicFunctionKit_Tests.debug.xcconfig */;
@@ -475,7 +506,7 @@
 			};
 			name = Release;
 		};
-		97CA8E47075B528136EF7AFAA1342C7D /* Debug */ = {
+		7B6D204D2214C9ED8BE12FFDF1D98B8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA61CF9BAD2032BA30B6FE8B7FCB1D15 /* SFCloudMusicFunctionKit.xcconfig */;
 			buildSettings = {
@@ -499,12 +530,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -630,38 +662,6 @@
 			};
 			name = Debug;
 		};
-		DDAB5F9A31C73AA1629F0C169CC10B1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA61CF9BAD2032BA30B6FE8B7FCB1D15 /* SFCloudMusicFunctionKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SFCloudMusicFunctionKit/SFCloudMusicFunctionKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SFCloudMusicFunctionKit/SFCloudMusicFunctionKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SFCloudMusicFunctionKit/SFCloudMusicFunctionKit.modulemap";
-				PRODUCT_MODULE_NAME = SFCloudMusicFunctionKit;
-				PRODUCT_NAME = SFCloudMusicFunctionKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		EE0F1E15C9D3CBE79C1522B0DADD17BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90B16733E8716501B4ECC15BBC13BCD4 /* Pods-SFCloudMusicFunctionKit_Example.debug.xcconfig */;
@@ -744,8 +744,8 @@
 		67728F4D087EEB28EFCCEE910FCF596F /* Build configuration list for PBXNativeTarget "SFCloudMusicFunctionKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97CA8E47075B528136EF7AFAA1342C7D /* Debug */,
-				DDAB5F9A31C73AA1629F0C169CC10B1C /* Release */,
+				2703A410B82C125EDC66B35739D3B123 /* Debug */,
+				7B6D204D2214C9ED8BE12FFDF1D98B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
