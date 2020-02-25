@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import SFCloudMusicFunctionKit
 
 class ViewController: UIViewController {
-
+    
+let cycleView: SFCycleScrollView = SFCycleScrollView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 150))
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.addSubview(cycleView)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,5 +24,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
 }
 

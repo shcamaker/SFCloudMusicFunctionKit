@@ -1,5 +1,5 @@
 PODS:
-  - SFCloudMusicFunctionKit (0.2.0)
+  - SFCloudMusicFunctionKit (0.6.4)
 
 DEPENDENCIES:
   - SFCloudMusicFunctionKit (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SFCloudMusicFunctionKit: 52e804a30a0ba04c957538f8999fd10c66520cac
+  SFCloudMusicFunctionKit: 1d941e4848f62103c815523edfc03f43012d81d9
 
 PODFILE CHECKSUM: 5a9b5f795e9cb26d4b858ff98513ff42719f4fd8
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.8.3

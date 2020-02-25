@@ -1,6 +1,6 @@
 {
   "name": "SFCloudMusicFunctionKit",
-  "version": "0.2.0",
+  "version": "0.6.4",
   "summary": "SFCloudMusicFunctionKit",
   "description": "A short description of SFCloudMusicFunctionKit",
   "homepage": "https://github.com/shcamaker/SFCloudMusicFunctionKit",
@@ -13,10 +13,17 @@
   },
   "source": {
     "git": "https://github.com/shcamaker/SFCloudMusicFunctionKit.git",
-    "tag": "0.2.0"
+    "tag": "0.6.4"
   },
+  "swift_versions": "5.0",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SFCloudMusicFunctionKit/Classes/**/*"
+  "source_files": "SFCloudMusicFunctionKit/Classes/**/*",
+  "resource_bundles": {
+    "SFCloudMusicFunctionKit": [
+      "SFCloudMusicFunctionKit/Assets/*.png"
+    ]
+  },
+  "swift_version": "5.0"
 }

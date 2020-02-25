@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SFCloudMusicFunctionKit'
-  s.version          = '0.5.0'
+  s.version          = '0.6.5'
   s.summary          = 'SFCloudMusicFunctionKit'
 
 # This description is used to generate tags and improve search results.
@@ -34,9 +34,9 @@ A short description of SFCloudMusicFunctionKit
 
   s.source_files = 'SFCloudMusicFunctionKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SFCloudMusicFunctionKit' => ['SFCloudMusicFunctionKit/Assets/*.png']
-  # }
+#   s.resource_bundles = {
+#     'SFCloudMusicFunctionKit' => ['SFCloudMusicFunctionKit/Assets/*.png']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
